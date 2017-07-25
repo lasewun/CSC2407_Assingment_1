@@ -1,16 +1,20 @@
 
 body {
     background-color: #cccccc;
-}
-header {
-    background-color: black;
+    min-width: 440px;
+    width: 100%;
 }
 
 header li{
-    float:left;
-    padding: 50px;
+    float:right;
+    padding: 10px;
+    color: white;
 }
+
 header {
+    display: inline-block;
+    min-width: 460px;
+    width: 100%;
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     letter-spacing: -1px;
@@ -19,24 +23,33 @@ header {
 }
 
 .feature1 {
-    float: left;
-    min-width: 450px;
+    display: inline-block;
+    right: 0px;
+
+    width: 460px;
     position: relative;
-    width: 33%; /* for IE 6 */
+    border: 3px solid green;
+    /*width: 330px; /* for IE 6 */
 }
 
 .feature2 {
-    float: left;
-    min-width: 450px;
+    display: inline-block;
+    right: 0px;
+
+    width: 460px;
     position: relative;
-    width: 33%; /* for IE 6 */
+    border: 3px solid green;
+    /*width: 330px; /* for IE 6 */
 }
 
 .feature3 {
-    float: left;
-    min-width: 450px;
+    display: inline-block;
+    right: 0px;
+
+    width: 460px;
     position: relative;
-    width: 33%; /* for IE 6 */
+    border: 3px solid green;
+    /*width: 330px; /* for IE 6 */
 }
 
 .feature1 p {
@@ -45,12 +58,14 @@ header {
     left: 0;
     width: 100%;
 }
+
 .feature2 p {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
+
 .feature3 p {
     position: absolute;
     top: 0;
@@ -58,7 +73,16 @@ header {
     width: 100%;
 }
 
-
+header ul {
+ list-style-type: none;
+}
+header a {
+    text-decoration: none; /* removes hyper link and underlining etc */
+}
+.selected{ /* for selected link on index*/
+    font-weight: bold;
+    color: red;
+}
 
 p span{
     color: white;
@@ -67,4 +91,8 @@ p span{
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
+}
+
+footer{
+    clear: both; /* clears everything before drawing*/
 }
