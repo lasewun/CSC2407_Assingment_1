@@ -1,31 +1,66 @@
-.feature1 {
-    min-width:400px;
-    position: relative;
-    width: 30%; /* for IE 6 */
+
+body {
+    background-color: #cccccc;
+}
+header {
+    background-color: black;
 }
 
-.feature1 h2 {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100%;
+header li{
+    float:left;
+    padding: 50px;
 }
-
-.feature1 p {
-    position: absolute;
-    top: 20%;
-    left: 0;
-    width: 100%;
-}
-h2 span {
+header {
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     letter-spacing: -1px;
     background: rgb(0, 0, 0); /* fallback color */
     background: rgba(0, 0, 0, 0.7);
-    padding: 10px;
 }
-p span {
+
+.feature1 {
+    float: left;
+    min-width: 450px;
+    position: relative;
+    width: 33%; /* for IE 6 */
+}
+
+.feature2 {
+    float: left;
+    min-width: 450px;
+    position: relative;
+    width: 33%; /* for IE 6 */
+}
+
+.feature3 {
+    float: left;
+    min-width: 450px;
+    position: relative;
+    width: 33%; /* for IE 6 */
+}
+
+.feature1 p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.feature2 p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.feature3 p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+p span{
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
     letter-spacing: -1px;
