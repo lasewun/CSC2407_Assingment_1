@@ -1,14 +1,16 @@
 
 body {
     background-color: #cccccc;
-    min-width: 440px;
+    min-width: 460px;
     width: 100%;
+    margin: auto;
 }
 
 header li{
     float:right;
     padding: 10px;
     color: white;
+    cursor: pointer;
 }
 
 header {
@@ -22,10 +24,29 @@ header {
     background: rgba(0, 0, 0, 0.7);
 }
 
-.feature1 {
-    display: inline-block;
-    right: 0px;
+header h1:hover{
+    color: #00d6e3;
+}
+header ul {
+    list-style-type: none;
+}
+header a {
+    text-decoration: none; /* removes hyper link and underlining etc */
+}
 
+header a:hover { /* hover changes colour!*/
+    color: #00d6e3;
+}
+
+.features {
+    width:80%;
+    background-color: yellow;
+    margin:auto;
+}
+.feature1 {
+    text-align:center;
+    display: block;
+    margin: auto;
     width: 460px;
     position: relative;
     border: 3px solid green;
@@ -33,9 +54,9 @@ header {
 }
 
 .feature2 {
-    display: inline-block;
-    right: 0px;
-
+    text-align:center;
+    margin: auto;
+    display: block;
     width: 460px;
     position: relative;
     border: 3px solid green;
@@ -43,9 +64,9 @@ header {
 }
 
 .feature3 {
-    display: inline-block;
-    right: 0px;
-
+    text-align:center;
+    display: block;
+    margin: auto;
     width: 460px;
     position: relative;
     border: 3px solid green;
@@ -73,12 +94,6 @@ header {
     width: 100%;
 }
 
-header ul {
- list-style-type: none;
-}
-header a {
-    text-decoration: none; /* removes hyper link and underlining etc */
-}
 .selected{ /* for selected link on index*/
     font-weight: bold;
     color: red;
