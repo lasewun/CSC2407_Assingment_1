@@ -1,7 +1,5 @@
-
 body {
     background-color: #cccccc;
-    min-width: 460px;
     width: 100%;
     margin: auto;
 }
@@ -15,7 +13,6 @@ header li{
 
 header {
     display: inline-block;
-    min-width: 460px;
     width: 100%;
     color: white;
     font: bold 24px/45px Helvetica, Sans-Serif;
@@ -45,8 +42,7 @@ header a:hover { /* hover changes colour!*/
 }
 .feature1 {
     text-align:center;
-    display: block;
-    margin: auto;
+    display: inline-block;
     width: 460px;
     position: relative;
     border: 3px solid green;
@@ -55,8 +51,7 @@ header a:hover { /* hover changes colour!*/
 
 .feature2 {
     text-align:center;
-    margin: auto;
-    display: block;
+    display: inline-block;
     width: 460px;
     position: relative;
     border: 3px solid green;
@@ -65,8 +60,7 @@ header a:hover { /* hover changes colour!*/
 
 .feature3 {
     text-align:center;
-    display: block;
-    margin: auto;
+    display: inline-block;
     width: 460px;
     position: relative;
     border: 3px solid green;
