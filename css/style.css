@@ -36,7 +36,7 @@ header a:hover { /* hover changes colour!*/
 }
 
 .features {
-    width:80%;
+    width:100%;
     background-color: yellow;
     margin:auto;
 }
