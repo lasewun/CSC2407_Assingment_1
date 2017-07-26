@@ -12,6 +12,7 @@ header li{
 }
 
 header {
+    text-align: center;
     display: inline-block;
     width: 100%;
     color: white;
@@ -29,6 +30,7 @@ header ul {
 }
 header a {
     text-decoration: none; /* removes hyper link and underlining etc */
+    color: white;
 }
 
 header a:hover { /* hover changes colour!*/
